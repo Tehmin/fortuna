@@ -23,6 +23,23 @@ add_action('admin_menu', function(){
 } );
 
 function toplevel_page() {
+    $cragir = get_option("cragir");
+
     echo "<h2>".'Program menu'."</h2>";
     include(__DIR__."/index.php");
+}
+
+
+
+
+
+add_action("admin_init", "update_cragir");
+
+function update_cragir()
+{
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (!empty($_POST["cragir"])) {
+            update_option("cragir", $_POST["cragir"]);
+        }
+    }
 }
