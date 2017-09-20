@@ -142,6 +142,7 @@ echo "</pre>";
                             <input type="text" name="cragir[erkushabti][haxordum][]"
                                    value="<?php echo $haxordum; ?>"><input type="text" name="cragir[erkushabti][jam][]"
                                                                            value="<?php echo $cragir["erkushabti"]["jam"][$key]; ?>">
+                            <a href="#" class="delete">Delete</a>
                             <span class="btn btn-default move" type="button"><img class="move_icon"
                                                                                   src="<?php echo plugin_dir_url(__FILE__) ?>images/icon.jpg"></span>
                         </div>
@@ -171,6 +172,7 @@ echo "</pre>";
                             <input type="text" name="cragir[ereqshabti][haxordum][]"
                                    value="<?php echo $haxordum; ?>"><input type="text" name="cragir[ereqshabti][jam][]"
                                                                            value="<?php echo $cragir["ereqshabti"]["jam"][$key]; ?>">
+                            <a href="#" class="delete">Delete</a>
                             <span class="btn btn-default move" type="button"><img class="move_icon"
                                                                                   src="<?php echo plugin_dir_url(__FILE__) ?>images/icon.jpg"></span>
                         </div>
@@ -201,6 +203,7 @@ echo "</pre>";
                             <input type="text" name="cragir[choreqshabti][haxordum][]"
                                    value="<?php echo $haxordum; ?>"><input type="text" name="cragir[choreqshabti][jam][]"
                                                                            value="<?php echo $cragir["choreqshabti"]["jam"][$key]; ?>">
+                            <a href="#" class="delete">Delete</a>
                             <span class="btn btn-default move" type="button"><img class="move_icon"
                                                                                   src="<?php echo plugin_dir_url(__FILE__) ?>images/icon.jpg"></span>
                         </div>
@@ -230,6 +233,7 @@ echo "</pre>";
                             <input type="text" name="cragir[hingshabti][haxordum][]"
                                    value="<?php echo $haxordum; ?>"><input type="text" name="cragir[hingshabti][jam][]"
                                                                            value="<?php echo $cragir["hingshabti"]["jam"][$key]; ?>">
+                            <a href="#" class="delete">Delete</a>
                             <span class="btn btn-default move" type="button"><img class="move_icon"
                                                                                   src="<?php echo plugin_dir_url(__FILE__) ?>images/icon.jpg"></span>
                         </div>
@@ -259,6 +263,7 @@ echo "</pre>";
                             <input type="text" name="cragir[urbat][haxordum][]"
                                    value="<?php echo $haxordum; ?>"><input type="text" name="cragir[urbat][jam][]"
                                                                            value="<?php echo $cragir["urbat"]["jam"][$key]; ?>">
+                            <a href="#" class="delete">Delete</a>
                             <span class="btn btn-default move" type="button"><img class="move_icon"
                                                                                   src="<?php echo plugin_dir_url(__FILE__) ?>images/icon.jpg"></span>
                         </div>
@@ -288,6 +293,7 @@ echo "</pre>";
                             <input type="text" name="cragir[shabat][haxordum][]"
                                    value="<?php echo $haxordum; ?>"><input type="text" name="cragir[shabat][jam][]"
                                                                            value="<?php echo $cragir["urbat"]["jam"][$key]; ?>">
+                            <a href="#" class="delete">Delete</a>
                             <span class="btn btn-default move" type="button"><img class="move_icon"
                                                                                   src="<?php echo plugin_dir_url(__FILE__) ?>images/icon.jpg"></span>
                         </div>
@@ -317,6 +323,7 @@ echo "</pre>";
                             <input type="text" name="cragir[kiraki][haxordum][]"
                                    value="<?php echo $haxordum; ?>"><input type="text" name="cragir[kiraki][jam][]"
                                                                            value="<?php echo $cragir["kiraki"]["jam"][$key]; ?>">
+                            <a href="#" class="delete">Delete</a>
                             <span class="btn btn-default move" type="button"><img class="move_icon"
                                                                                   src="<?php echo plugin_dir_url(__FILE__) ?>images/icon.jpg"></span>
                         </div>
