@@ -126,6 +126,10 @@ echo "</pre>";
             <li><a href="#tabs-7">Կիրակի</a></li>
         </ul>
         <form method="post">
+            <div>
+                <h5 style="display: inline-block">Երկուշաբթի</h5>
+                <input type="text" name="shabatva_skizb" value="<?php echo get_option("shabatva_skizb")?>">
+            </div>
         <div id="tabs-1" class="or">
             <button type="button" data-day="erkushabti" class="add_form_field">Add New Field &nbsp; <span style="font-size:16px; font-weight:bold;">+ </span></button>
             <div class="title_program">

@@ -8,7 +8,7 @@
  * Version: 1.0
  */
 
-
+include_once __DIR__.'/shortcodes.php';
 add_action( 'admin_enqueue_scripts', 'my_scripts_method' );
 
 
@@ -20,9 +20,11 @@ function my_scripts_method(){
 
 add_action('admin_menu', function(){
     add_menu_page('Program','Program','manage_options', 'cragir', 'toplevel_page', "dashicons-exerpt-view");
-} );
+});
 
 function toplevel_page() {
+
+    echo date("d.m.Y", strtotime(get_option("shabatva_skizb"))+60*60*24*1);
     $cragir = get_option("cragir");
 
     echo "<h2>".'Program menu'."</h2>";
@@ -40,6 +42,7 @@ function update_cragir()
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (!empty($_POST["cragir"])) {
             update_option("cragir", $_POST["cragir"]);
+            update_option("shabatva_skizb", $_POST["shabatva_skizb"]);
         }
     }
 }
