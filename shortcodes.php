@@ -23,7 +23,6 @@ function show_program(){
     </tr>
     </thead>
     <tbody>';
-
     foreach($cragir["erkushabti"]["haxordum"] as $key => $haxordum) {
         $cragri_html .= '<tr class="sectiontableentry1">
                         <td class="list-title">'.$haxordum.'</td>

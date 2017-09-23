@@ -23,17 +23,10 @@ add_action('admin_menu', function(){
 });
 
 function toplevel_page() {
-
-    echo date("d.m.Y", strtotime(get_option("shabatva_skizb"))+60*60*24*1);
     $cragir = get_option("cragir");
-
     echo "<h2>".'Program menu'."</h2>";
     include(__DIR__."/index.php");
 }
-
-
-
-
 
 add_action("admin_init", "update_cragir");
 
