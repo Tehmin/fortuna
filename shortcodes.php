@@ -15,7 +15,7 @@ function show_program(){
             [tab_title] ԿԻՐԱԿԻ '.date("d.m.Y", strtotime(get_option("shabatva_skizb"))+60*60*24*6).'[/tab_title]
             [/tabs_head]
              [tab]
-<table class="category table-bordered" style="height: 505px;" width="498">
+<table class="category table-bordered">
     <thead>
     <tr>
         <th id="tableOrdering" class="sectiontableheader">ԱՆՎԱՆՈՒՄԸ</th>
@@ -33,7 +33,7 @@ function show_program(){
 </table>
 [/tab]
 [tab]
-<table class="category table-bordered" style="height: 527px;" width="504">
+<table class="category table-bordered">
     <thead>
     <tr>
         <th id="tableOrdering" class="sectiontableheader">ԱՆՎԱՆՈՒՄԸ</th>
@@ -51,7 +51,7 @@ function show_program(){
 </table>
 [/tab]
 [tab]
-<table class="category table-bordered" style="height: 517px;" width="485">
+<table class="category table-bordered">
     <thead>
     <tr>
         <th id="tableOrdering" class="sectiontableheader">ԱՆՎԱՆՈՒՄԸ</th>
@@ -105,7 +105,7 @@ function show_program(){
 </table>
 [/tab]
 [tab]
-<table class="category table-bordered" style="height: 391px;" width="456">
+<table class="category table-bordered">
     <thead>
     <tr>
         <th id="tableOrdering" class="sectiontableheader">ԱՆՎԱՆՈՒՄԸ</th>
@@ -123,7 +123,7 @@ function show_program(){
 </table>
 [/tab]
 [tab]
-<table class="category table-bordered" style="height: 409px;" width="425">
+<table class="category table-bordered">
     <thead>
     <tr>
         <th id="tableOrdering" class="sectiontableheader">ԱՆՎԱՆՈՒՄԸ</th>

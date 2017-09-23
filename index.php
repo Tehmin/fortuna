@@ -1,10 +1,4 @@
-<?php
 
-echo "<pre>";
-//print_r($cragir["erkushabti"]);
-echo "</pre>";
-
-?>
     <style>
         .container1 input[type=text] {
             padding:5px 0px;
